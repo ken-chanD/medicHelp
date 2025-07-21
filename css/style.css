@@ -16,7 +16,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  line-height: 1.6;
+  line-height: 2;
   font-size: 18px;
   background-color: #1e1e1e;
   color: #ffffff;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* === Header === */
 header {
-  background-color: #0077B6;
+  background-color: #C44536;
   padding: 0.5rem 1rem;
   text-align: center;
   border-bottom-left-radius: 0.5rem;  
@@ -61,14 +61,11 @@ header {
 }
 
 .kurzgefasst, .erster-Schritt {
-  background: #FE9000;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
   border-radius: 0.5rem;
-}
-
-.erster-Schritt {
-  background-color: #9191E9;
+  background-color: #2a2a2a;
+  border: 1px solid #3f3f3f;
 }
 
 
