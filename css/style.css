@@ -55,12 +55,15 @@ header {
   padding: 0.5rem 1rem;
   color: #e0e0e0;
   text-align: center;
+  border-bottom-left-radius: 0.5rem;  
+  border-bottom-right-radius: 0.5rem;
 }
 
 .kurzgefasst, .erster-Schritt {
   background: #FE9000;
   padding: 1rem;
   margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .erster-Schritt {
