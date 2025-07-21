@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Pflegewissen – Start</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header><h1>Reanimation</h1></header>
+  <div id="nav"></div>
+
+  <main>
+    <div class="kurzgefasst">
+      <h2>Kurzgefasst</h2>
+      <p>
+        Das erste Mal bei einer Reanimation kann sehr stressig und herausfordernd sein. 
+        In dieser Situation muss man zunächst tief durchatmen, sich beruhigen und einen kühlen Kopf bewahren. 
+        Wenn du weiterliest, kann ich dir helfen, bei deiner nächsten Reanimation besser vorbereitet zu sein.
+      </p>
+    </div>
+
+    <div class="erster-Schritt">
+      <h2>Erster Schritt</h2>
+      <p>Das Erste, was man macht, ist, den Reanimationswagen zu überprüfen. 
+        Nur wenn du genau weißt, wo sich die benötigten Materialien befinden, 
+        kannst du während der Reanimation schnell und effektiv handeln. Je nach Station und Klinik kann der Wagen anders aussehen. 
+        Damit du besser und schneller bist, solltest du jeden Tag den Wagen überprüfen ggf. ausfüllen. Dabei sollte dir diese
+        Liste helfen:
+      </p>
+      <ul>
+        <li>Der Defi
+          <p>Er soll am Strom angeschlossen sein und keine Fehler zeigen</p>
+        </li>
+        <li>Absauger
+          <p>Er soll auch am Strom angeschlossen sein und komplett ausgestattet mit:
+            <ul>
+              <li>Absaugbeutel</li>
+              <li>Verbindungsschlauch</li>
+              <li>Absaugschläuche verschiedener Größen</li>
+            </ul>
+          </p>
+        </li>
+        <li>Medikamente</li>
+        <li>Sachen wie:
+          <ul>
+            <li>Spritzen</li>
+            <li>Aufziehkanülen</li>
+            <li>Flexülen</li>
+            <li>Pflaster</li>
+            <li>usw.</li>
+          </ul>
+        </li>
+          
+      </ul>
+    </div>
+    
+    <h2></h2>
+  </main>
+
+
+  <div id="footer"></div>
+
+  <script>
+    function include(id, file) {
+      fetch(file)
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById(id).innerHTML = html;
+        });
+    }
+
+    include('nav', './includes/nav.html');
+    include('footer', './includes/footer.html');
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
