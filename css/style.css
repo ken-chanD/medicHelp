@@ -1,3 +1,5 @@
+/* color: #e0e0e0; */
+
 /* === Basis Reset & Defaults === */
 * {
   margin: 0;
@@ -17,7 +19,7 @@ body {
   line-height: 1.6;
   font-size: 18px;
   background-color: #1e1e1e;
-  color: #e0e0e0;
+  color: #ffffff;
   width: 100%;
 }
 
@@ -53,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background-color: #0077B6;
   padding: 0.5rem 1rem;
-  color: #e0e0e0;
   text-align: center;
   border-bottom-left-radius: 0.5rem;  
   border-bottom-right-radius: 0.5rem;
