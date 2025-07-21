@@ -51,18 +51,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* === Header === */
 header {
-  background-color: #379392;
+  background-color: #0077B6;
   padding: 0.5rem 1rem;
   color: #e0e0e0;
   text-align: center;
 }
 
-.kurzgefasst {
-  background: #4F86C6;
+.kurzgefasst, .erster-Schritt {
+  background: #FF8552;
   padding: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-
+.erster-Schritt {
+  background-color: #9191E9;
+}
 
 
 /* === Listen === */
