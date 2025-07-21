@@ -17,8 +17,7 @@
 </head>
 <body>
 
-  <header><h1>Reanimation</h1></header>
-  <div id="nav"></div>
+  <header id="header"></header>
 
   <main>
     <div class="kurzgefasst">
@@ -70,19 +69,6 @@
 
 
   <div id="footer"></div>
-
-  <script>
-    function include(id, file) {
-      fetch(file)
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById(id).innerHTML = html;
-        });
-    }
-
-    include('nav', './includes/nav.html');
-    include('footer', './includes/footer.html');
-  </script>
 
   <script src="js/main.js"></script>
 </body>

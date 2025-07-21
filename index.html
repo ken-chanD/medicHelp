@@ -16,28 +16,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header><h1>MedicHelp</h1></header>
+  <header id="header"></header>
   <div id="nav"></div>
 
   <main>
-    
   </main>
 
-
-  <div id="footer"></div>
-
-  <script>
-    function include(id, file) {
-      fetch(file)
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById(id).innerHTML = html;
-        });
-    }
-
-    include('nav', './includes/nav.html');
-    include('footer', './includes/footer.html');
-  </script>
+  <footer id="footer"></footer>
 
   <script src="js/main.js"></script>
 </body>
